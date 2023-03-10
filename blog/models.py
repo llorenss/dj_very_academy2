@@ -46,6 +46,11 @@ class Post(models.Model):
         on_delete=models.CASCADE,
         related_name="blog_posts",
     )
+    status = models.CharField(
+        max_length=10,
+        choices=options,
+        default="published",
+    )
     object = models.Manager()  # default manager
     postobjects = PostObjects()  # default manager
 
