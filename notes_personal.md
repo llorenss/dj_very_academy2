@@ -64,3 +64,5 @@ coverage html
 
 Скопировать путь для браузера
 file:///C:/Python/dj_very_academy2/htmlcov/index.html
+
+https://youtu.be/soxd_xdHR0o?t=5515
