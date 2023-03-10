@@ -50,3 +50,5 @@ https://youtu.be/soxd_xdHR0o?t=3691
 http://127.0.0.1:8000/api/
 
 python manage.py createsuperuser
+
+https://youtu.be/soxd_xdHR0o?t=4421
