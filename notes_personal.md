@@ -48,7 +48,6 @@ pip install djangorestframework
 https://youtu.be/soxd_xdHR0o?t=3691
 заполнить сериалайзер и вью в блогапи.
 
-
 http://127.0.0.1:8000/api/
 
 python manage.py createsuperuser
@@ -58,7 +57,7 @@ https://youtu.be/soxd_xdHR0o?t=4421
 pip install coverage
 
 Исключаем при тестировании папку:
-coverage run --omit='*/ve/*' manage.py test
+coverage run --omit='_/ve/_' manage.py test
 
 coverage html
 
@@ -66,3 +65,7 @@ coverage html
 file:///C:/Python/dj_very_academy2/htmlcov/index.html
 
 https://youtu.be/soxd_xdHR0o?t=5515
+
+https://youtu.be/soxd_xdHR0o?t=6815
+pip install django-cors-headers
+https://pypi.org/project/django-cors-headers/
