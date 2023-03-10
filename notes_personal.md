@@ -9,6 +9,8 @@ ve\Scripts\Activate.ps1
 
 В кавычках команду ниже
 'C:\Python\dj_very_academy1\ve\Scripts\python.exe -m pip install --upgrade pip'
+Или попробовать с кавычками и без
+'python -m pip install --upgrade pip'
 
 pip install django
 
@@ -52,3 +54,13 @@ http://127.0.0.1:8000/api/
 python manage.py createsuperuser
 
 https://youtu.be/soxd_xdHR0o?t=4421
+
+pip install coverage
+
+Исключаем при тестировании папку:
+coverage run --omit='*/ve/*' manage.py test
+
+coverage html
+
+Скопировать путь для браузера
+file:///C:/Python/dj_very_academy2/htmlcov/index.html
