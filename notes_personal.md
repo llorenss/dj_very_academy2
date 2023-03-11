@@ -91,10 +91,21 @@ https://www.django-rest-framework.org/api-guide/permissions/#custom-permissions
 https://youtu.be/5AOn0BmSXyE?t=1877
 
 🐱‍🏍Testing the custom permission
+https://youtu.be/AfYfvjP1hK8?t=1184
 
+jwt token
+
+pip install djangorestframework-sipmlejwt
+
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
+
+
+https://github.com/veryacademy/YT-Django-DRF-Simple-Blog-Series-JWT-Part-3
 
 Использование git revert для быстрой отмены изменений
 
 git revert a33sdfs
 
 git status
+
+https://youtu.be/AfYfvjP1hK8?t=1393
