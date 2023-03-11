@@ -109,3 +109,17 @@ git revert a33sdfs
 git status
 
 https://youtu.be/AfYfvjP1hK8?t=1393
+
+https://youtu.be/AfYfvjP1hK8?t=1513
+
+py manage.py startapp users
+
+deleted db
+
+makemigrations
+
+migrate
+
+create superuser
+
+https://youtu.be/AfYfvjP1hK8?t=1994
