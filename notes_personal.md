@@ -134,3 +134,16 @@ http://127.0.0.1:8000/admin/
 https://github.com/veryacademy/YT-Django-DRF-Simple-Blog-Series-Viewset-Routers-Part-4
 
 https://www.django-rest-framework.org/api-guide/viewsets/
+
+
+Django Rest Framework Series - API Schema and Documentation Generation - Part-5 
+https://youtu.be/-nuobfiU49Q?t=202
+pip install pyyaml
+pip install uritemplate
+https://www.django-rest-framework.org/coreapi/schemas/#schemas
+
+https://swagger.io/tools/swagger-ui/
+
+pip install coreapi pyyaml
+
+https://github.com/veryacademy/YT-Django-DRF-Simple-Blog-Series-Schema-Documentation-Part-5
