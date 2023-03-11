@@ -124,3 +124,13 @@ create superuser
 https://youtu.be/AfYfvjP1hK8?t=1994
 
 https://youtu.be/dCbfOZurCQk?t=440
+
+python manage.py runserver
+
+http://127.0.0.1:8000/api/
+http://127.0.0.1:8000/admin/
+
+
+https://github.com/veryacademy/YT-Django-DRF-Simple-Blog-Series-Viewset-Routers-Part-4
+
+https://www.django-rest-framework.org/api-guide/viewsets/
