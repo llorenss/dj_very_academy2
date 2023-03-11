@@ -91,3 +91,10 @@ https://www.django-rest-framework.org/api-guide/permissions/#custom-permissions
 https://youtu.be/5AOn0BmSXyE?t=1877
 
 🐱‍🏍Testing the custom permission
+
+
+Использование git revert для быстрой отмены изменений
+
+git revert a33sdfs
+
+git status
