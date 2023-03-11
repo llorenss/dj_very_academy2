@@ -72,19 +72,22 @@ https://pypi.org/project/django-cors-headers/
 
 permission levels
 https://youtu.be/5AOn0BmSXyE?t=162
+
 <!-- https://www.django-rest-framework.org/api-guide/permissions/#isauthenticated -->
 
-We can apply permissions:
-    - project-level
-    - view-level
-    - object-level
+We can apply permissions: - project-level - view-level - object-level
 
 Permissions -> HTTP Requests
- * Permissions:
-    -  View -> GET
-    -  Delete -> DELETE
-    -  Change -> PUT PATCH
-    -  Add -> POST
+
+- Permissions:
+  - View -> GET
+  - Delete -> DELETE
+  - Change -> PUT PATCH
+  - Add -> POST
 
 Custom permissions
 https://www.django-rest-framework.org/api-guide/permissions/#custom-permissions
+
+https://youtu.be/5AOn0BmSXyE?t=1877
+
+🐱‍🏍Testing the custom permission

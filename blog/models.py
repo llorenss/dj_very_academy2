@@ -51,7 +51,7 @@ class Post(models.Model):
         choices=options,
         default="published",
     )
-    object = models.Manager()  # default manager
+    objects = models.Manager()  # default manager
     postobjects = PostObjects()  # default manager
 
     class Meta:
