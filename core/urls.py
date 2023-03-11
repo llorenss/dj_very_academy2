@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.urls import include, path
+from rest_framework.documentation import include_docs_urls
 from rest_framework.schemas import get_schema_view
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
@@ -11,6 +12,7 @@ urlpatterns = [
     path("api-auth/", include("rest_framework.urls", namespace="rest_framwork")),
     path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
+    path("docs/", include_docs_urls(title="BlogAPI")),
     path(
         "schema",
         get_schema_view(
