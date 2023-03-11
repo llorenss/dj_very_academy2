@@ -1,7 +1,6 @@
-from django.contrib.auth.models import User
 from django.db import models
 from django.utils import timezone
-
+from django.conf import settings
 
 class Category(models.Model):
     name = models.CharField(
@@ -42,7 +41,7 @@ class Post(models.Model):
         default=timezone.now,
     )
     author = models.ForeignKey(
-        User,
+        settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
         related_name="blog_posts",
     )
